@@ -1,10 +1,10 @@
-import './styles/index.scss';
+import { StoreProvider } from "@/app/providers/StoreProvider";
+import { AppRouter } from "@/app/providers/Router";
 
-function App() {
-  
+export default function App() {
   return (
-    <div>MONEYFLOW</div>
-  )
+    <StoreProvider>
+      <AppRouter />
+    </StoreProvider>
+  );
 }
-
-export default App;
