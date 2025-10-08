@@ -1,5 +1,5 @@
 const AccountsPage = () => {
-  return <div>Dashboard Page</div>;
+  return <div>Accounts Page</div>;
 };
 
 export { AccountsPage };
